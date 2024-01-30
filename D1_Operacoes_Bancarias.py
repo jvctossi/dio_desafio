@@ -49,7 +49,7 @@ while True:
             print("Número de saque diário excedido! Selecione outra opção ou 0 para sair")
 
     elif opcao == "3":
-        print(f"{extrato} \n Saldo: R$ {saldo}")
+        print(f"{extrato} \n Saldo: R$ {saldo:.2f}")
 
     elif opcao == "0":
         break
